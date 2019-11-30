@@ -8,6 +8,15 @@ JAVA
 XML
 FIREBASE (backend)
 ```
+## TO Test the app
+  Download app-debug.apk and install
+  <a href="https://github.com/arvindnegi1/EntryManagementApp/blob/master/app-debug.apk">app-debug.apk</a>
+  ```bash
+    Turn on sms permission setting to app from setting->EntryManagement-> Permission ->turn on
+  ```
+  
+## Demo screenshot
+  [here](#working-example-screenshot-in-order-they-execute)
 ## BASIC IDEA
 
 App is installed in the device of the person who manages entry and exit of the person in the specific premises.
@@ -58,7 +67,7 @@ Entry of visitor removed from Pending Fragment ---> Entry made in Log section an
 ```
 ***
 
-## WORKING EXAMPLE SCREENSHOT IN ORDER THEY EXECUTE
+##   WORKING EXAMPLE SCREENSHOT IN ORDER THEY EXECUTE
 ## SPLASH SCREEN
 <img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/add_host.jpg" width="400px" height="600px"></img>
 
