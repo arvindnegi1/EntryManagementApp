@@ -1,5 +1,5 @@
 # EntryManagementApp
-Entry management App summergeeks innovaccer task for SDE Intern
+Entry management App summergeeks innovaccer task for SDE Intern summer 2020
 ## CONTRIBUTING
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 ## LANGUAGE USED
@@ -58,7 +58,31 @@ Entry of visitor removed from Pending Fragment ---> Entry made in Log section an
 ```
 ***
 
-## WORKING EXAMPLE SCREENSHOT
+## WORKING EXAMPLE SCREENSHOT IN ORDER THEY EXECUTE
+## SPLASH SCREEN
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/add_host.jpg" width="400px" height="600px"></img>
 
-
-      
+***
+## Visitor Entry
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/add_visitor.jpg" width="400px" height="600px"></img>
+***
+## Visitor Select Host
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/select_host.jpg" width="400px" height="600px"></img>
+***
+## Visitor Entry In pending section
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/pending.jpg" width="400px" height="600px"></img>
+***
+## Text Message on HOST Phone
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/msg_to_host.jpg" width="400px" height="600px"></img>
+***
+## Departure confirm
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/departure_confirm.jpg" width="400px" height="600px"></img>
+***
+## Log Entry of Visitor
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/logs.jpg" width="400px" height="600px"></img>
+***
+## Text Message on VISITOR Phone
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/msg_to_visitor.jpg" width="400px" height="600px"></img>
+***
+## Firebase Schema
+<img src="https://github.com/arvindnegi1/EntryManagementApp/blob/master/Firebase_schema.PNG"  height="800px"></img>  
