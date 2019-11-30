@@ -1,0 +1,135 @@
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:layout_gravity="center"
+
+    android:elevation="10dp"
+
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/full"
+        >
+
+        <FrameLayout
+            android:layout_width="80dp"
+            android:layout_height="80dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:id="@+id/card_image"
+                android:src="@drawable/people" />
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="20dp"
+                android:text="17519"
+                android:layout_marginBottom="5sp"
+                android:id="@+id/regno"
+                android:layout_gravity="bottom"
+                android:textSize="16dp"
+                android:layout_marginRight="20dp"
+                android:paddingLeft="5dp"
+                android:background="@drawable/tag"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="150sp"
+            android:layout_height="80sp"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="ARVIND NEGI"
+                android:fontFamily="@font/genze"
+
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted"/>
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="20sp"
+                android:fontFamily="@font/dancing"
+                android:text="email@gmail.com"
+
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:text="+919876543210"
+
+
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+
+                android:text="SDE"
+                android:textAlignment="viewEnd"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@drawable/dotted"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:text="SELECT"
+                android:id="@+id/select"
+                android:layout_marginTop="20sp"
+                android:layout_gravity="bottom"
+                android:background="@color/black"
+                android:textColor="#ffffff"
+                android:padding="5dp"
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

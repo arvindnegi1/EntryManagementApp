@@ -1,0 +1,139 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30dp"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cardback"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/top"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="VISITOR"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+
+                android:textColorHint="@color/black">
+
+                <EditText
+                    android:id="@+id/name"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:textSize="20sp"
+                    android:paddingStart="20dp"
+                    android:background="@drawable/cusdesign"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:textColorHint="@color/black">
+
+                <EditText
+                    android:id="@+id/Phone"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/cusdesign"
+                    android:textSize="20sp"
+                    android:paddingStart="20dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone"
+                    android:inputType="phone"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:textColorHint="@color/black">
+
+                <EditText
+                    android:id="@+id/visited"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="VIsited"
+                    android:textSize="20sp"
+                    android:background="@drawable/cusdesign"
+                    android:paddingStart="20dp"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/visitoradd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:padding="20dp"
+                android:text="Add Visitor" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:id="@+id/recy">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:id="@+id/recycle">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/addtodatabase"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:text="Submit"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/teste"
+
+                />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

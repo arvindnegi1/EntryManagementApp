@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <item
+        android:id="@+id/visitor"
+        android:icon="@drawable/visitor"
+        android:title="VISITOR" />
+
+
+    <item
+        android:id="@+id/host"
+        android:icon="@drawable/host"
+        android:title="ADD HOST" />
+
+    <item
+        android:id="@+id/pending"
+        android:icon="@drawable/logs"
+        android:title="Pending" />
+
+    <item
+        android:id="@+id/logs"
+        android:icon="@drawable/logs"
+        android:title="Logs" />
+
+
+</menu>

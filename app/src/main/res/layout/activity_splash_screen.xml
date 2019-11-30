@@ -1,0 +1,20 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="240sp"
+        android:id="@+id/imglogo"
+        android:src="@drawable/innovaccer"
+        android:layout_marginTop="150sp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imglogo"
+        />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "755344272190",
+    "firebase_url": "https://entrymanagement-95c39.firebaseio.com",
+    "project_id": "entrymanagement-95c39",
+    "storage_bucket": "entrymanagement-95c39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755344272190:android:c677cb92c68de2c21b9a6f",
+        "android_client_info": {
+          "package_name": "com.negi.entrymanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755344272190-e055epb34ipgq5hes4fhinsh6sngi61t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.negi.entrymanagement",
+            "certificate_hash": "45c0b7a4a0169b20eb505ded70a740e8f4492b40"
+          }
+        },
+        {
+          "client_id": "755344272190-gl6fjgii896upoc63fcdosqouncel95r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQawOKq84rpVQKwDSvzjkJQxqqW6A90u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755344272190-gl6fjgii896upoc63fcdosqouncel95r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
